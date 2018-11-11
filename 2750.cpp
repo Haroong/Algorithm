@@ -1,5 +1,5 @@
 //  main.cpp
-//  Baekjoon no.11004
+//  Baekjoon no.2750
 
 #include <iostream>
 using namespace std;

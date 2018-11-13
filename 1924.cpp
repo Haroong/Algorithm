@@ -33,7 +33,7 @@ void calc(int mon, int day){
                 sum += tempDay;
                 tempMonth++;
                 break;
-            default: // 1, 3, 5, 6, 7, 10, 12월
+            default: // 1, 3, 5, 7, 8, 10, 12월
                 tempDay = 31;
                 sum += tempDay;
                 tempMonth++;

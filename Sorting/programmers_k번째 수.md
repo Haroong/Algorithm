@@ -25,3 +25,6 @@ function solution(array, commands) {
   return answer;
 }
 ```
+### 문제를 풀고 나서
+javascript의 sort()가 일반적으로 생각하는 숫자 정렬이 아닌 문자열 유니코드를 따라서 정렬해준다.<br />
+이걸 몰라서 처음에 정렬이 이상하게 됐다.

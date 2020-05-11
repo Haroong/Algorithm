@@ -1,0 +1,21 @@
+function solution(array, commands) {
+  let answer = [];
+
+  for (let i = 0; i < commands.length; i++) {
+    let temp = [];
+    let startPoint = commands[i][0];
+    let endPoint = commands[i][1];
+    let rep = endPoint - startPoint + 1;
+    let goalPoint = commands[i][2];
+    for (let j = 0; j < rep; j++) {
+      temp[j] = array[startPoint - 1];
+      startPoint++;
+    }
+    temp.sort(function(a, b) {
+      return a - b;
+    });
+
+    answer.push(temp[goalPoint - 1]);
+  }
+  return answer;
+}

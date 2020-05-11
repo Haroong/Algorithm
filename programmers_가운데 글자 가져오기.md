@@ -18,3 +18,5 @@ function solution(s) {
   return answer;
 }
 ```
+### 문제를 풀고 나서
+문자열의 길이에 따라서 문자열 처리를 다르게 했다.

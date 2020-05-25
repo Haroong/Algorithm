@@ -3,7 +3,7 @@
 
 ### 주로 사용하는 언어
 1. JavaScript
-2. c++ 
+2. C++ 
 
 ### 이용하는 사이트
 - [BOJ(Baekjoon Online Judge)](https://www.acmicpc.net)

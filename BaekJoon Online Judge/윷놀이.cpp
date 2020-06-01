@@ -36,10 +36,16 @@ void judge(int arr[3][4]){
     
     // 윷 판단
     for (int n = 0; n < 3; n++){
-        if (resultArr[n] == 3)      { cout << "A" << endl; }
-        else if (resultArr[n] == 2) { cout << "B" << endl; }
-        else if (resultArr[n] == 1) { cout << "C" << endl; }
-        else if (resultArr[n] == 0) { cout << "D" << endl; }
-        else                        { cout << "E" << endl; }
+        if (resultArr[n] == 3){ 
+            cout << "A" << endl;
+        } else if (resultArr[n] == 2){ 
+            cout << "B" << endl; 
+        } else if (resultArr[n] == 1){ 
+            cout << "C" << endl; 
+        } else if (resultArr[n] == 0){ 
+            cout << "D" << endl; 
+        } else { 
+            cout << "E" << endl;
+        }
     }
 }

@@ -6,5 +6,5 @@
 2. C++ 
 
 ### 이용하는 사이트
-- [BOJ(Baekjoon Online Judge)](https://www.acmicpc.net)
+- [Baekjoon Online Judge](https://www.acmicpc.net)
 - [프로그래머스](https://programmers.co.kr/)

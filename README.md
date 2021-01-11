@@ -3,7 +3,8 @@
 
 ### 사용하는 언어
 1. JavaScript
-2. C++ 
+2. Python 
+3. C++ 
 
 ### 이용하는 사이트
 - [Baekjoon Online Judge](https://www.acmicpc.net)

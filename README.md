@@ -1,4 +1,4 @@
-# Algorithm
+# 💻 Algorithm
 알고리즘 문제 푼 것을 모아두는 repo 입니다.   
 
 ### 사용하는 언어

@@ -6,5 +6,5 @@
 2. Python 
 
 ### 이용하는 사이트
-- [Baekjoon Online Judge](https://www.acmicpc.net/user/batsy_22) (링크 누르면 프로필로 이동)
+- [Baekjoon Online Judge](https://www.acmicpc.net/user/batsy_22)
 - [프로그래머스](https://programmers.co.kr/)

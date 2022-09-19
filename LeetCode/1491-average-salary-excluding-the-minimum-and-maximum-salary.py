@@ -10,3 +10,4 @@ class Solution:
             answer = sum(salary[1:-1]) / divisor
         
         return answer
+ 

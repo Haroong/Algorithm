@@ -9,9 +9,9 @@ def calculateDays(climb, slip, height):
     remainHeight = height - climb  # 첫째날 올라간 후 남은 높이
 
     if remainHeight % step == 0:
-        day = remainHeight // step + FIRST_DAY  # 첫째날 일수 추가
+        day = remainHeight // step + FIRST_DAY
     else:
-        day = remainHeight // step + 1 + FIRST_DAY
+        day = remainHeight // step + 1 + FIRST_DAY  # 소요 일수 하루 추가
 
     return day
 

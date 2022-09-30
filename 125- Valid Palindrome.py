@@ -15,19 +15,12 @@ def isPalindrome(s):
     # check if palindrome string
     if len(s) % 2 == 0:
         if s[:len(s) // 2] == s[len(s):len(s) // 2 - 1:-1]:
-            print('T')
             return True
         else:
-            print('F')
             return False
     else:
         # exclude middle index character
         if s[:len(s) // 2] == s[len(s):len(s) // 2:-1]:
-            print('T')
             return True
         else:
-            print('F')
             return False
-
-
-isPalindrome("A man, a plan, a canal: Panama")

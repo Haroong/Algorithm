@@ -23,15 +23,6 @@ def calculate_direct_distance(x, y, col, row):
     dist = (col - x) + (row - y)
     return dist
 
-
-# 공주 구출에 성공했는지 여부 반환
-def is_rescue_success(is_found):
-    if is_found:
-        return True
-    else:
-        return False
-    
-
 # 공주를 구출할 수 있는 최단 시간 반환
 def get_minimum_rescue_time(castle, limit):
     queue = deque([[0, 0]]) # 용사의 시작 위치

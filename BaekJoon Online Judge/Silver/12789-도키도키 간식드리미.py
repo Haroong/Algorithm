@@ -3,7 +3,7 @@ from collections import deque
 
 # 간식 수령 가능 여부 반환
 def is_able_to_receive_snack(tickets):
-    stack = deque() # 원소 하나만 들어갈 수 있음
+    stack = deque()
     snack_receive = []
 
     for ticket in tickets:

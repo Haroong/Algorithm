@@ -3,7 +3,7 @@ import sys
 STREAK_EMPTY_ZONE = 2
 
 # 방에서 가로로 누울 수 있는 영역 찾기
-def calculate_row(room):
+def calculate_by_row(room):
     row = 0
 
     for i in range(len(room)):
@@ -22,12 +22,12 @@ def calculate_row(room):
                     continue
             else: # 벽
                 count = 0
-                found_sleep_zone = True
+                found_sleep_zone = True # 다시 카운팅 시작 가능
     
     return row
 
 # 방에서 세로로 누울 수 있는 영역 찾기
-def calculate_col(room):
+def calculate_by_col(room):
     col = 0
 
     for index, value in enumerate(room):
@@ -38,7 +38,7 @@ def calculate_col(room):
             if room[j][index] == '.': # 빈 영역
                 if found_sleep_zone:
                     count += 1
-                    if count == STREAK_EMPTY_ZONE: # 가로로 눕기 가능
+                    if count == STREAK_EMPTY_ZONE: # 세로로 눕기 가능
                         col += 1
                         count = 0
                         found_sleep_zone = False # 다음번 장애물이 나타날 때 까지 카운트 x
@@ -46,14 +46,14 @@ def calculate_col(room):
                     continue
             else: # 벽
                 count = 0
-                found_sleep_zone = True
+                found_sleep_zone = True # 다시 카운팅 시작 가능
     
     return col
 
 # 방에서 누울 수 있는 자리 수 반환
 def count_comfort_zone(room):
-    row = calculate_row(room)
-    col = calculate_col(room)
+    row = calculate_by_row(room)
+    col = calculate_by_col(room)
 
     return row, col
 
